@@ -1,0 +1,29 @@
+{
+  "name": "lofi.design",
+  "version": "0.1.0",
+  "description": "Website for Lofi",
+  "main": "index.js",
+  "repository": "https://github.com/RoyalIcing/lofi.design.git",
+  "author": "Patrick Smith <pgwsmith@gmail.com>",
+  "license": "Apache",
+  "dependencies": {
+    "next": "^2.3.1",
+    "postcss-loader": "^2.0.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.0.1",
+    "css-loader": "^0.28.1",
+    "cssnano": "^3.10.0",
+    "cssnext": "^1.8.4",
+    "postcss-import": "^9.1.0",
+    "style-loader": "^0.17.0",
+    "sugarss": "^1.0.0"
+  }
+}
