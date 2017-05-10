@@ -18,7 +18,7 @@ export default ({
       <Code>Some simple text, easy!</Code>
       <p>Lofi makes text its first priority.</p>
         
-      <p>Unlike HTML, don’t worry about special characters like <code children='&' /> or <code children='<' /> getting in the way. Just write!</p>
+      <p>Unlike HTML, don’t worry about special characters like <strong children='&' /> or <strong children='<' /> getting in the way. Just write!</p>
     </section>
     <section>
       <h2>Add hashtags</h2>
