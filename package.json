@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/RoyalIcing/lofi.design.git",
   "author": "Patrick Smith <pgwsmith@gmail.com>",
-  "license": "Apache",
+  "license": "Apache-2.0",
   "engines": {
     "node": ">= 7.10.0"
   },
