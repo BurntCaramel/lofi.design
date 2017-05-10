@@ -6,6 +6,9 @@
   "repository": "https://github.com/RoyalIcing/lofi.design.git",
   "author": "Patrick Smith <pgwsmith@gmail.com>",
   "license": "Apache",
+  "engines": {
+    "node": ">= 7.10.0"
+  },
   "dependencies": {
     "next": "^2.3.1",
     "postcss-loader": "^2.0.3",
