@@ -14,10 +14,10 @@ export default ({
     </header>
     <section>
       <ul>
-        <li>Rapidly prototype and communicate user interfaces and messaging</li>
+        <li>Rapidly communicate and prototype user interfaces and messaging</li>
         <li>Define content models and translate them into various schema formats</li>
         <li>Content manage websites with Trello</li>
-        <li>Or your own: Lofi is completely open source. Find the libraries below</li>
+        <li>Or DIY: Lofi is <Link href='/open-source'><a>completely open source</a></Link>.</li>
       </ul>
     </section>
     <section>
