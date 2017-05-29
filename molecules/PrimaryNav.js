@@ -21,9 +21,11 @@ export default ({
       {' · '}
       <NavLink href='/open-source' activePath={ activePath }>Open Source</NavLink>
       {' · '}
-      <NavLink href='https://schema.lofi.design'>#Schema</NavLink>
+      <NavLink href='https://collected.design/'>Collected</NavLink>
       {' · '}
-      <NavLink href='https://lokum.icing.space'>#Lokum</NavLink>
+      <NavLink href='https://schema.lofi.design/'>#Schema</NavLink>
+      {' · '}
+      <NavLink href='https://lokum.icing.space/'>#Lokum</NavLink>
     </div>
   </nav>
 )
