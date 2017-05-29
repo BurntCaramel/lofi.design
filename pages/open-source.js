@@ -7,7 +7,7 @@ const Code = ({ children }) => <pre><code>{ children }</code></pre>
 export default ({
   url
 }) => (
-  <Main>
+  <Main title='Open source libraries for Lofi'>
     <PrimaryNav activeURL={ url } />
     <header>
       <h1>Open Source</h1>

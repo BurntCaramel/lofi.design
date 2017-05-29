@@ -6,7 +6,7 @@ import PrimaryNav from '../molecules/PrimaryNav'
 export default ({
   url
 }) => (
-  <Main>
+  <Main title='Lightweight format for content and communication'>
     <PrimaryNav activeURL={ url } />
     <header>
       <h1>Say hi to content’s new friend</h1>

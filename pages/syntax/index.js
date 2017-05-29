@@ -8,7 +8,7 @@ const Code = ({ children }) => <pre><code>{ children }</code></pre>
 export default ({
   url
 }) => (
-  <Main>
+  <Main title='Lofi’s syntax'>
     <PrimaryNav activeURL={ url } />
     <header>
       <h1>Writing Lofi: The Syntax</h1>

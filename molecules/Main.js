@@ -1,9 +1,10 @@
 import Head from 'next/head'
 
-export default ({ children }) => (
+export default ({ title, children }) => (
     <main>
         <Head>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+						{ title && <title children={ title } /> }
         </Head>
         <style jsx global>{`
 * {
