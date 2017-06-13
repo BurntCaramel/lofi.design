@@ -10,7 +10,7 @@
     "node": ">= 7.10.0"
   },
   "dependencies": {
-    "next": "^2.3.1",
+    "next": "beta",
     "postcss-loader": "^2.0.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -18,7 +18,8 @@
   "scripts": {
     "dev": "next",
     "build": "node_modules/.bin/next build",
-    "start": "node_modules/.bin/next start"
+    "start": "node_modules/.bin/next start",
+    "build:static": "node_modules/.bin/next build && node_modules/.bin/next export"
   },
   "devDependencies": {
     "autoprefixer": "^7.0.1",

@@ -30,8 +30,8 @@ export default ({
         <li><Link href='/syntax'><a>Learn the social media-inspired syntax here</a></Link></li>
       </ul>
     </section>
-    <section>
+    <aside>
       <NewsletterSignUp />
-    </section>
+    </aside>
   </Main>
 )

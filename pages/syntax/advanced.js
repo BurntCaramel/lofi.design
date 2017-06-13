@@ -1,9 +1,11 @@
 import Link from 'next/link'
-import Main from '../molecules/Main'
-import NewsletterSignUp from '../molecules/NewsletterSignUp'
-import PrimaryNav from '../molecules/PrimaryNav'
+import Main from '../../molecules/Main'
+import NewsletterSignUp from '../../molecules/NewsletterSignUp'
+import PrimaryNav from '../../molecules/PrimaryNav'
 
-const Code = ({ children }) => <pre><code>{ children }</code></pre>
+const Code = ({ children }) => (
+  <pre><code>{ children }</code></pre>
+)
 
 export default ({
   url
