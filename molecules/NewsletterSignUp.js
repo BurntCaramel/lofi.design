@@ -1,7 +1,7 @@
 //import React from 'react'
 
 export default () => (
-  <section>
+  <div>
     <script src="https://assets.convertkit.com/assets/CKJS4.js?v=21"></script>
     <div className="ck_form_container ck_inline" data-ck-version="6">
       <div className="ck_form ck_minimal">
@@ -43,7 +43,7 @@ export default () => (
     </div>
 
 
-    <style type="text/css">{ `/* Layout */
+    <style jsx global>{ `/* Layout */
       .ck_form.ck_minimal {
       line-height: 1.5em;
       overflow: hidden;
@@ -125,7 +125,6 @@ export default () => (
         border: none;
         text-shadow: none;
         width: 30%;
-        float: left;
         height: 42px;
       }
 
@@ -203,5 +202,5 @@ export default () => (
       margin-top: 5px;
     }
     `}</style>
-  </section>
+  </div>
 )

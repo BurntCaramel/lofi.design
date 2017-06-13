@@ -11,6 +11,7 @@ export default ({ title, children }) => (
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: inherit;
 }
 
 html {
@@ -37,6 +38,7 @@ section article {
 header > *,
 section > *,
 section article > *,
+aside > *,
 nav > div
 {
 	max-width: 30rem;
