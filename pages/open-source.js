@@ -22,6 +22,10 @@ export default ({
         <dd><Link href='https://github.com/RoyalIcing/lofi-elm'><a>lofi-elm</a></Link></dd>
         <dd><Link href='https://github.com/RoyalIcing/lofi-schema-elm'><a>lofi-schema-elm</a></Link></dd>
       </dl>
+      <dl>
+        <dt>Elixir</dt>
+        <dd><Link href='https://github.com/RoyalIcing/lofi-elixir'><a>lofi-elixir</a></Link></dd>
+      </dl>
     </section>
   </Main>
 )
